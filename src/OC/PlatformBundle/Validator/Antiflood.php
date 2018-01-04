@@ -1,7 +1,9 @@
 <?php
 namespace OC\PlatformBundle\Validator;
 
-class Antiflood
+use Symfony\Component\Validator\Constraint;
+
+class Antiflood extends Constraint
 {
     //TODO: Ecrire le Antiflood
 }
